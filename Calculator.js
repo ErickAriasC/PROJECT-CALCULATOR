@@ -17,3 +17,10 @@ function dividir (a, b) {
 function calcularPorcentaje(numero, porcentaje) {
     console.log(porcentaje + "% de", numero, "es:", (numero * (porcentaje / 100)));
   }
+
+
+  sumar(50, 30);      
+  restar(80, 30);    
+  multiplicar(40, 20);
+  dividir(100, 5);
+  calcularPorcentaje(200, 25);
