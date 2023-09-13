@@ -9,3 +9,7 @@ function restar (a, b) {
 function multiplicar (a, b) {
     console.log("El producto de", a, "y", b, "es:", a * b);
 }
+
+function dividir (a, b) {
+    console.log("La division de", a, "por", b, "es:", a / b);
+}
