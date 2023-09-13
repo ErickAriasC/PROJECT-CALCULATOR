@@ -3,5 +3,9 @@ function sumar (a, b) {
 }
 
 function restar (a, b) {
-    console.log("La resta de", a, "y", b, "es:", a -b);
+    console.log("La resta de", a, "y", b, "es:", a - b);
+}
+
+function multiplicar (a, b) {
+    console.log("El producto de", a, "y", b, "es:", a * b);
 }
