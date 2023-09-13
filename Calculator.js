@@ -13,3 +13,7 @@ function multiplicar (a, b) {
 function dividir (a, b) {
     console.log("La division de", a, "por", b, "es:", a / b);
 }
+
+function calcularPorcentaje(numero, porcentaje) {
+    console.log(porcentaje + "% de", numero, "es:", (numero * (porcentaje / 100)));
+  }
