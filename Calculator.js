@@ -1,26 +1,39 @@
-function sumar (a, b) {
-    console.log("La suma de", a, "y", b, "es:", a + b);
-}
-
-function restar (a, b) {
-    console.log("La resta de", a, "y", b, "es:", a - b);
-}
-
-function multiplicar (a, b) {
-    console.log("El producto de", a, "y", b, "es:", a * b);
-}
-
-function dividir (a, b) {
-    console.log("La division de", a, "por", b, "es:", a / b);
-}
-
-function calcularPorcentaje(numero, porcentaje) {
+function sumarCinco(a, b, c, d, f) {
+    let suma = 0;
+  
+    if (a !== undefined) suma += a;
+    if (b !== undefined) suma += b;
+    if (c !== undefined) suma += c;
+    if (d !== undefined) suma += d;
+    if (e !== undefined) suma += e;
+  
+    console.log("La suma de los números proporcionados es:", suma);
+  }
+  
+  // Ejemplos de uso
+  
+  sumarCinco(1, 2, 3, 4, 5);
+  
+  function restarCinco(a, b, c, d, e) {
+    console.log("La resta de", a, ",", b, ",", c, ",", d, "y", e, "es:", a - b - c - d - e);
+  }
+  
+  
+  function multiplicarCinco(a, b, c, d, e) {
+    console.log("El producto de", a, ",", b, ",", c, ",", d, "y", e, "es:", a * b * c * d * e);
+  }
+  
+  
+  function dividirCinco(a, b, c, d, e) {
+    console.log("La división de", a, "por", b, ",", c, ",", d, "y", e, "es:", a / b / c / d / e);
+  }
+  
+  
+  function calcularPorcentajeCinco(numero, porcentaje) {
     console.log(porcentaje + "% de", numero, "es:", (numero * (porcentaje / 100)));
   }
-
-
-  sumar(50, 30);      
-  restar(80, 30);    
-  multiplicar(40, 20);
-  dividir(100, 5);
-  calcularPorcentaje(200, 25);
+  
+  restarCinco(10, 2, 3, 4, 1); 
+  multiplicarCinco(1, 2, 3, 4, 5); 
+  dividirCinco(100, 2, 5, 4, 1); 
+  calcularPorcentajeCinco(200, 25); 
