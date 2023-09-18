@@ -82,7 +82,6 @@ main{
     font-size: 1.5rem;
     text-align: right;
     border: none;
-    /* outline: none; */
     background-color: transparent;
 }
 .show-operation>input{
@@ -147,4 +146,40 @@ footer{
 
 footer>h3{
     font-size: 0.8rem;
+}
+
+@media (min-width:1280px){
+    .title-caculator{
+        width: 50%;
+    }
+    .calculator{
+        width: 23%;
+        height: auto;
+    }
+    button{
+        width: 5rem;
+        height: 5rem;
+    }
+    .button_igual{
+        width: 10.2rem;
+    }
+    .input-operation {
+        font-size: 2rem;
+    }
+    .result{
+        font-size: 2.5rem;
+    }
+    .operations{
+        margin-top: 5rem;
+        margin-right: 2.3rem;
+        margin-bottom: 1rem;
+    }
+
+    main{
+        margin-bottom: 3rem;
+        height: auto;
+    }
+    footer>h3{
+        font-size: 1.5rem;
+    }
 }
